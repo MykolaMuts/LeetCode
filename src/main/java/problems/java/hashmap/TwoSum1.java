@@ -1,4 +1,4 @@
-package problems.java;
+package problems.java.hashmap;
 
 import java.util.OptionalInt;
 import java.util.stream.IntStream;
