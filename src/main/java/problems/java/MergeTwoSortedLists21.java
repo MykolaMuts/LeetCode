@@ -1,5 +1,7 @@
 package problems.java;
 
+import problems.java._helper.ListNode;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,23 +28,5 @@ public class MergeTwoSortedLists21 {
             return new ListNode(list2.val, mergeTwoLists(list1, list2.next));
         }
 
-    }
-
-    public static class ListNode {
-
-        int val;
-        ListNode next;
-
-        public ListNode() {
-        }
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-
-        public ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 }

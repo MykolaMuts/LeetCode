@@ -1,9 +1,8 @@
 package problems.java;
 
 import org.junit.jupiter.api.Test;
-import problems.java.MergeTwoSortedLists21.ListNode;
+import problems.java._helper.ListNode;
 
-import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class MergeTwoSortedLists21Test {
